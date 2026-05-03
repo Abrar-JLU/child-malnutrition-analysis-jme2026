@@ -74,7 +74,7 @@ The Excel report includes:
 
 ## About me
 
-I'm an M.Sc. candidate in Transition Management at Justus Liebig University Giessen, Germany, with a background in public health nutrition and data management. Before starting my degree I worked with UNICEF in Cox's Bazar as an Emergency Data Officer, managing nutrition datasets for 100,000+ displaced Rohingya and leading the rollout of the Emergency Nutrition Information System (ENIS/ENIM).
+I'm an M.Sc. candidate in Transition Management at Justus Liebig University Giessen, Germany, with a background in public health nutrition and data management. Before starting my degree I worked with UNICEF in Cox's Bazar as an Emergency Data Officer, managing nutrition datasets and leading the rollout of the Emergency Nutrition Information System (ENIS/ENIM).
 
 I'm interested in child and maternal nutrition data — not just as a career direction, but as something I've been working on for most of my professional life.
 
