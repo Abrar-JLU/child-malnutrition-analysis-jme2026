@@ -33,11 +33,10 @@ The dataset covers stunting, wasting, severe wasting, and overweight prevalence 
 
 ## Key findings
 
-**TL;DR:** Global stunting stalled after 2020. South Asia has 
-the world's highest wasting rate at 14.1%. Boys are more stunted 
-than girls in every single region — a brand new finding from JME 2026.
+**TL;DR:** Global stunting stalled after 2020. South Asia has the world's highest wasting rate at 14.1%. Boys are more stunted than girls in every single region — a brand new finding from JME 2026.
 
 Honestly, a few things surprised me when I actually sat with the numbers.
+
 The headline looks okay — global stunting dropped from 33.1% in 2000 to 23.2% in 2024. But when you look at the trend lines closely, progress has basically flatlined since 2020 in the regions that matter most. South Asia, West & Central Africa, East & Southern Africa — these three regions together hold about 75% of all stunted children in the world, and none of them are moving fast enough to hit the 2030 SDG target. We're going to miss it by a significant margin.
 
 South Asia's wasting number caught my attention too. At 14.1% in 2024, it's not just the highest of any region — it's more than double the next highest. Stunting and wasting tend to get discussed separately in the literature, but seeing them side by side in Chart 2 makes the South Asia situation look quite different from everywhere else.
@@ -52,19 +51,23 @@ The gender finding was the one I found most interesting. Boys are more stunted t
 |------|-------------|
 | `Child_Malnutrition_Analysis_Siddique_2026.xlsx` | Main report with 3 charts and data tables |
 | `JME_Regional_Global_Estimates_March_2026.xlsx` | Original source data from UNICEF DATA (unchanged) |
+| `malnutrition_analysis.py` | Python script used to extract and filter the data |
+| `stunting_trend_2000_2024.csv` | Chart 1 data output |
+| `regional_snapshot_2024.csv` | Chart 2 data output |
+| `gender_gap_2024.csv` | Chart 3 data output |
 
 The Excel report includes:
 - **Chart 1** — Stunting trend lines 2000–2024 for 4 UNICEF regions + global average
 - **Chart 2** — Stunting vs wasting side-by-side for all 7 UNICEF regions (2024)
-- **Chart 3** — Boys vs girls stunting comparison by region (2024, sex-disaggregated)
+- **Chart 3** — Boys vs girls stunting + gap by region (2024, sex-disaggregated)
 - Raw data sheets for full transparency
 
 ---
 
 ## Tools used
 
-- Python (pandas, openpyxl) — data extraction, cleaning, and report generation
-- Microsoft Excel — chart rendering and report layout
+- Python (pandas) — loading and filtering the JME dataset, saving outputs as CSV
+- Microsoft Excel — building the charts and report layout
 - Data source: UNICEF DATA portal
 
 ---
